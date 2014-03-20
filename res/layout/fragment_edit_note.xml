@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+    <RelativeLayout
+        android:id="@+id/layoutImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <net.nature.client.views.TouchImageView
+            android:id="@+id/touchImageViewNotePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageViewPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="invokePlayVideo"
+            android:src="@drawable/playbutton" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+            
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contribution "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black" />
+            
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   taken by: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Tom Yeh"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black" >
+            </TextView>
+        </LinearLayout>
+
+<!--
+        <net.nature.client.views.EditCategoryView
+            android:id="@+id/editCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+-->
+
+        <net.nature.client.views.EditLandmarkView2
+            android:id="@+id/editLandmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <net.nature.client.views.EditNoteTextView
+            android:id="@+id/editNoteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+        
+        <net.nature.client.views.EditParkActivityView
+            android:id="@+id/editParkActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NatureNet - Be A Scientist</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="exception_message">Ouch! Not working</string>
+    <string name="web_service_url">https://api.imgur.com/3/image</string>
+    <string name="btnCapture">Capture</string>
+    <string name="btnSelect">Select</string>
+    <string name="btnGallery">Gallery</string>
+    <string name="album_name">NatureNet</string>
+    <string name="client_id">Client-ID c2ac569e09963d7</string>
+    <string name="title_activity_park_map">NatureNet: Map</string>
+    <string name="title_activity_gallery">NatureNet: Gallery</string>
+    <string name="title_activity_note">NatureNet: Bio-Diversity Observation</string>
+    <string name="title_activity_landmark">NatureNet: Landmark</string>
+    <string name="title_activity_user">NatureNet: User</string>
+    <string name="title_activity_root">NatureNet</string>
+    <string name="title_activity_idea">NatureNet: Design Idea</string>
+    <string name="title_activity_create_user">NatureNet: New User</string>
+    <string name="title_activity_overview">NatureNet: Welcome</string>
+    <string name="title_activity_activities">Activities</string>
+	<string name="title_activity_consentform">Consent Form</string>
+
+</resources>

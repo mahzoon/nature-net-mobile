@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:text="Location: "
+        android:textColor="@color/black"        
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewLandmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:text="a long location name that will go to next line"
+        android:textSize="14dp" >
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="portrait" >
+
+    <RelativeLayout
+        android:id="@+id/layoutMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/toolbar"
+        android:layout_alignParentTop="true" >
+
+        <net.nature.client.TouchMapImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/newmap" />
+
+        <ZoomControls
+            android:id="@+id/zoomControlsMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp" />
+
+        <ImageButton
+            android:id="@+id/buttonToggleMapSize"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_alignBottom="@+id/map"
+            android:background="@color/white"
+            android:src="@drawable/arrow_down"
+            android:onClick="toggleMapSize" />
+
+        <RelativeLayout
+            android:id="@+id/layoutDrawerBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/map"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="-35dp" >
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutLandmark"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/map" >
+
+            <net.nature.client.views.LandmarkView
+                android:id="@+id/viewLandmark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/toolbar"
+        android:name="net.nature.client.fragments.ToolbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        tools:layout="@layout/fragment_toolbar" />
+
+    <!--
+         fragment
+        android:id="@+id/fragmentIdeaButton"
+        android:name="net.nature.client.fragments.IdeaButtonFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp" /
+    -->
+
+</RelativeLayout>

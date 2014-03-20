@@ -1,0 +1,160 @@
+{
+     "Landmarks": [
+		{
+             "bottom": 0,
+             "id": 0,
+             "left": 0,
+             "right": 0,
+             "top": 0,
+             "name": "Other",
+             "targets" : [""],
+             "description" : [
+             	"",
+             	""]
+         },
+         {
+             "bottom": 1871,
+             "id": 1,
+             "left": 1509,
+             "right": 848,
+             "top": 3564,
+             "name": "Hub of Activities",
+             "targets" : ["a tree"],
+             "description" : [
+             	"Natural springs feed Hallam Lake throughout the year, creating a hub of animal and plant activity. These springs have always served as a gathering place for people and wildlife. Ute Indians believed that springs were sacred places. They would camp near areas like Hallam Lake when they followed game into the mountains during the summer.",
+             	"In the mining era, Hallam Lake continued in its tradition as a communal meeting place. There was a boathouse, dance pavilion, and carousel here in the 1880s where Aspen citizens came to socialize and enjoy themselves, much like the waterfowl we will discuss at a later stop! As you walk, try to think about your home and places where plants, animals, and humans gather together."]
+         },
+         {
+             "bottom": 1950,
+             "id": 2,
+             "left": 1524,
+             "right": 840,
+             "top": 3220,
+             "name": "Golden Eagle",
+             "targets" : ["the eagle"],
+             "description" : [
+             	"It's time to meet ACES' resident Golden Eagle, a real Aspen local. In the summer of 1982 this eagle was found on the backside of Aspen Mountain by hikers.  She was brought to a raptor rehabilitation center in Fort Collins, where she was treated for a broken right wing and left leg. She was then returned to Aspen and Hallam Lake where she has lived ever since.",
+             	"All educational birds of prey at ACES are non-releasable due to permanent injuries that prevent their return to the wild. While at ACES, these raptors act as ambassadors for their species, promoting appreciation of birds of prey, their long-term protection, and the importance of such predators. Raptors such as our Golden Eagle are essential to a robust predator population, which is an indicator of a strong and healthy ecosystem.",
+             	"The Golden Eagle is found in North America, Eurasia, and Northern Africa. Locally, it is found in a variety of habitats, including mountainous areas, canyons, shrub-land, and grasslands. Golden eagles use their impeccable eyesight and powerful talons to snatch up rabbits, marmots, and ground squirrels. This eagle is fed a diet of mice, rats, quail, and elk or deer meat."]             
+         },
+         {
+             "bottom": 1510,
+             "id": 3,
+             "left": 941,
+             "right": 500,
+             "top": 2878,
+             "name": "A Safe Haven",
+             "targets" : ["the lake","a water bird"],           
+             "description" : [
+             	"Take a seat and enjoy the view! The bench here offers us a place of refuge from the sun, rain, or snow, just as the lake offers refuge to a plethora of waterfowl. Geese and ducks return to Hallam Lake every year as the lake provides a safe stepping-stone on the journey of migration. It is a place to rest, relax, recharge, and connect with other travelers. Why do these birds stop here? The lake is an ideal habitat and is full of food. Hallam Lake never completely freezes in winter due to its 48  F spring water source. This provides a consistent, open-water site all year long.  At Hallam Lake we mark the seasons by visits from the birds. We count on their arrival just as they count on the safe haven that Hallam Lake offers.",
+             	"Ducks and geese aren't the only ones enjoying the water here. As you walk along the trail, look for clues of other animal activity -  who else might live in the lake? ",
+             	"Count & record how many ducks are on the lake.  How many geese?"]
+         },
+         {
+             "bottom": 1205,
+             "id": 4,
+             "left": 877,
+             "right": 600,
+             "top": 2418,
+             "name": "Beavers: Builders of Community Space",
+             "targets" : ["a flower","a tree"],
+             "description" : [            
+"Beavers have been living here at Hallam Lake for many decades. They are most active at dawn and dusk. Do you see any signs of their activity? Chewed sticks, pointed tree stumps, dams, and lodges are all clues that beavers live nearby. The beavers here live in a bank lodge located on the other side of the lake, under the leaning blue spruce tree.", 
+"Beavers create a place for other community members to come together.  Only 5% of Colorado's land touches wetland or riparian areas, yet 80% of all wildlife species depend on these zones for some portion of their life cycle.  Beaver activity creates larger wet areas upon which so much wildlife depends. Plants that rely on significant amounts of water, such as cottonwoods, willows, and blue spruce, thrive in the presence of beaver.  Increased varieties of plant life lead to greater diversity in wildlife.  Yellow warblers, tiger salamanders, cutthroat trout, and mink are just a few species that rely on beaver-created areas.",  
+"In addition to increasing biodiversity, the beaver ensures the future of a community. Beaver dams slow spring runoff, decreasing erosion. Beaver ponds also retain water during the dry times of the year when water sources may be scarce.",
+"The work of the beaver is a great example of how an individual can have many positive impacts on a community.  At the next stop, you will begin to see how ACES has benefited human members of the Aspen community as well."]  
+                          
+         },
+         {
+             "bottom": 1200,
+             "id": 5,
+             "left": 1142,
+             "right": 900,
+             "top": 2357,
+             "name": "Outdoor Classroom",
+			"targets" : ["an insect"],
+             "description" : [
+"As you stand here at the teaching platforms, you are joining a long lineage of visitors who have found Hallam Lake a place of connection and inspiration. Since the very early days of ACES, children and adults have used this spot as an outdoor classroom and laboratory, a place of thoughtful observation and study to reconnect with nature. Artists and writers have used Hallam Lake as an outdoor studio, finding these platforms to be a wonderful spot to express themselves. If you have a camera, a journal, or watercolors, stop and get in touch with your inner artist!"]                          
+         },
+         {
+             "bottom": 980,
+             "id": 6,
+             "left": 1378,
+             "right": 1080,
+             "top": 1676,
+             "name": "Powerful Ties from Past to Present",
+             "targets" : ["a plant"],             
+             "description" : [
+"Look down and take notice of the strange plants growing next to the trail. The plants below are commonly known as horsetails and are a connection to an ancient part of plant history. Spore-producing horsetails belong to the genus Equisetum, in a plant family that is over 300 million years old!  They are also called scouring rushes because silica, stored in the plant's cells, makes them effective for scrubbing pots or polishing wood.  Native Americans used the horsetails as a blood coagulant, and more recent medical research has shown these plants to be an effective diuretic.  Can you think of other ancient plants or animals that are still living today?",  
+"Horsetails thrived during the Carboniferous (coal-bearing) Period 300 million years ago and formed vast lush forests around the globe. Some scientists think that due to a lack of decomposing fungi and bacteria at the time, these forests did not fully decompose when they died. This dead plant matter, which had absorbed the sun's energy, remained dormant and was covered by sediment for millions of years. Today these ancient horsetail forests are mined as coal in western Colorado and many other places in the United States. The plant in front of you is a connection to the vast energy requirements of our 21st Century technology and economy. ",
+"Rough Silica: Rub the branches of the horsetail between your fingers to feel how scratchy and rough this plant is; a perfect tool for scouring cooking pots and polishing and sanding furniture."]             
+         },
+         {
+             "bottom": 895,
+             "id": 7,
+             "left": 1524,
+             "right": 1230,
+             "top": 1442,
+             "name": "Overlook the Sanctuary",
+             "targets" : ["a plant","an animal"], 
+             "description" : [
+"Turn left for an out-and-back to the marsh platform.",
+"Elizabeth Paepcke's original idea for Hallam Lake was to be a sanctuary for wildlife. Over the years the idea of a sanctuary where wildlife can come together and be safe has been combined with ACES' educational mission. Most of the area we have walked is managed as an outdoor classroom. As you approach the marsh platform you will overlook the part of the Hallam Lake Preserve that remains a sanctuary for wildlife, untrammeled by humans. There are many wilderness areas surrounding Aspen that have similar restrictions.",
+"As you admire this small pocket of land from the platform, try to imagine all of the acres of wilderness throughout this country that hold a similar peace, beauty, and protection from man-made change."]
+         },
+         {
+             "bottom": 1035,
+             "id": 8,
+             "left": 1757,
+             "right": 1345,
+             "top": 1527,
+             "name": "Bird Hollow",
+             "targets" : ["a bird"],             
+             "description" : [
+"Birding is a great way to connect with wildlife near your home or any place you visit. Take a moment to peek inside Bird Hollow. During the winter, bird feeders are hung from the trees and many species of birds can be seen here. Chickadees, nuthatches, finches, and Steller's Jays all frequent this area looking for food. Bird diversity increases dramatically in the summer.",
+"How many different bird songs can you hear? Record and identify them if you can!"]             
+         },
+         {
+             "bottom": 1182,
+             "id": 9,
+             "left": 1860,
+             "right": 1335,
+             "top": 1875,
+             "name": "Where Rivers Come Together",
+			 "targets" : ["the river","a tree"],
+             "description" : [
+"The rushing water below is the Roaring Fork River just before it meets Hunter Creek. Hallam Lake can be geographically defined as the low, wet riparian area adjacent to the confluence of Hunter Creek and the Roaring Fork River.", 
+"Imagine, for a moment, the long journey a snowflake takes: landing on the top of the Continental Divide at 12,000 feet, melting, and joining this river on its way hundreds of miles to the southwest, where it carves through the Grand Canyon, and later provides irrigation, recreation, and electricity for people in the Southwest.",
+"The convergence of the Roaring Fork River and Hunter Creek is merely a snapshot of the snowflake's long journey.  Though you may return here and feel reassured by the continuous presence of the rivers, remember what the Greek philosopher Heroclitus said: You could not step twice into the same river; for other waters are ever flowing on to you.",
+"Where these streams meet, so do people of all ages, from all over the world.  Children and adults return to Hallam Lake year after year for summer classes, school programs, and evening lectures.  Though this place is always different, like a river, there are things that remain the same.  For over forty years, our center has been a safe haven for animals and people, a place for gathering and connecting to nature and to each other.  Though your time here at ACES may be but a snapshot in your life, we hope that the experience stays with you and you remember the tranquility of this spot overlooking the water.",  
+"Take a moment to listen to all the sounds of the river before continuing on to our final stop."]             
+         },
+         {
+             "bottom": 1800,
+             "id": 10,
+             "left": 1711,
+             "right": 985,
+             "top": 2970,
+             "name": "Birds of Prey",
+			 "targets" : ["the owl","the eagle"],             
+             "description" : [             
+"You are standing in front of the Birds of Prey (BOP) House, the hub of our non-releasable raptor program. While at ACES, the resident BOP serve as our best educators, allowing visitors to get up close and personal to powerful wild animals.", 
+"Over the years, ACES has been home to a Golden Eagle, Red-tail Hawks, Great Horned and Screech Owls, falcons, and many others.", 
+"These educational animals have been staples of ACES' Environmental Science Education program, which reaches over 45,000 student contacts each school year. Children in this valley receive in-school Environmental Education once a week, as well as field programs at our sites and various other locations around Aspen."]              
+         },
+         {
+             "bottom": 1920,
+             "id": 11,
+             "left": 1877,
+             "right": 1041,
+             "top": 3071,
+             "name": "Journey's End",
+             "targets" : ["the naturalist at the front desk"],    
+             "description" : [                    
+"Thank you for visiting Hallam Lake today! This has always been a place of connection for animals and people, from the early times of the Ute Indians to the present-day visitors and guests of our nature center. Birds touch down on the lake and rest, and this is a safe haven for deer, black bears, and beavers to raise their young. Hallam Lake is an important hub for the Aspen community, offering a place for people to share stories and ideas, as well as find inspiration and peace. Nature centers in many communities provide a place where everyone is welcome regardless of race, religion, or financial status.", 
+"The solutions to the many challenges we face today can be found through strong community and collaboration. Together we can be stewards and protectors of this nature preserve, the wilderness surrounding Aspen, and all the wild places around the globe.", 
+"Thank you for collecting information about the Preserve during your walk.  Please drop your observations off at the front desk.",  
+"We are also very interested in the nature centers or hubs where you learn about your own home place. Please list your name, email, and the center near you so we can better learn about their role in community."]            
+         }
+     ]
+ }

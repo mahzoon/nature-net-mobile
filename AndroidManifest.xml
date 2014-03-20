@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.nature.client"
+    android:versionCode="4"
+    android:versionName="1.7.2" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_naturenet"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme" >
+        <activity
+            android:name="net.nature.client.activities.RootActivity"
+            android:label="@string/title_activity_root"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="net.nature.client.activities.ConsentFormActivity"
+            android:label="@string/title_activity_consentform"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="net.nature.client.activities.MainMapActivity"
+            android:label="@string/title_activity_park_map"
+            android:parentActivityName="net.nature.client.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="net.nature.client.activities.NoteActivity"
+            android:label="@string/title_activity_note"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="net.nature.client.activities.UserActivity"
+            android:label="@string/title_activity_user"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="net.nature.client.activities.IdeaActivity"
+            android:label="@string/title_activity_idea"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="net.nature.client.activities.CreateUserActivity"
+            android:label="@string/title_activity_create_user"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="net.nature.client.activities.OverviewActivity"
+            android:label="@string/title_activity_overview"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="net.nature.client.activities.GalleryActivity"
+            android:label="@string/title_activity_gallery"
+            android:screenOrientation="portrait" >
+        </activity>
+		<activity
+            android:name="net.nature.client.activities.ActivitiesActivity"
+            android:label="@string/title_activity_activities"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cover" />
+
+    <fragment
+        android:id="@+id/toolbar"
+        android:name="net.nature.client.fragments.ToolbarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/fragment_toolbar" />
+
+    <!--
+         fragment
+        android:id="@+id/fragmentIdeaButton"
+        android:name="net.nature.client.fragments.IdeaButtonFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp" /
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageViewAvatar"
+            android:text="Your name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/editUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textViewUsername"
+            android:layout_toRightOf="@+id/imageViewAvatar"
+            android:ems="10"
+            android:hint="Type your name"
+            android:text="Tom Yeh"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:orientation="vertical" >
+
+		<!--
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_info"
+            android:text="View information"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeInfo"/>
+			-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_map"
+            android:text="Start the tour"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:onClick="invokeMap"
+             />
+			-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_activity"
+            android:text="ACES Activities"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:onClick="invokeActivities"
+             />        
+			
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_camera"
+            android:text="Make a Contribution"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeCamera"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_note"
+            android:text="Edit a Contribution"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeNote"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_idea"
+            android:text="Submit a Design Idea"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:onClick="invokeIdea"/>
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>

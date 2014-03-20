@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cover" />
+
+    <RelativeLayout
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="25dp"
+            android:text="Welcome to ACES"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="startSelectUser"
+            android:text="Existing User"         
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="startCreateUser"
+            android:text="New User"			 
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/layoutButtons"
+        android:layout_below="@+id/textViewWelcome"
+        android:layout_marginBottom="15dp"
+		android:background="@color/gray" >
+
+        <TextView
+            android:id="@+id/textHelp"
+            android:layout_width="match_parent"
+            android:layout_height="701dp"
+            android:padding="5dp"
+            android:text="Visitors of all ages are invited to participate in a Community Field Lab project that involves making observations and taking pictures around the preserve, and sharing your photos, notes, and design ideas at the nature center.
+\n\n
+Basic Instructions:\n
+ 1. Create a user ID\n
+ 2. Explore the preserve on your own or use the self-guided tour feature to guide you\n
+ 3. Label the photo as a plant, animal, bird, insect, or landscape\n
+ 4. Take a field note about what you have seen\n
+ 5. Identify where the photo was taken within the preserve\n
+ 6. Make design suggestions for how the mobile application works\n
+ 7. Return to the Nature Center to share your observations and field notes on the table top computer"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+
+</RelativeLayout>

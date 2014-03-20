@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/btnUser"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="0dp"
+        android:src="@drawable/icon_info"
+        android:text="@string/btnCapture" />
+
+    <ImageButton
+        android:id="@+id/btnIdea"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="0dp"
+        android:src="@drawable/icon_idea" />
+    
+    <ImageButton
+        android:id="@+id/btnActivities"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="0dp"
+        android:src="@drawable/icon_activity"/>    
+
+    <ImageButton
+        android:id="@+id/btnCapture"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="0dp"
+        android:src="@drawable/icon_camera"
+        android:text="@string/btnCapture" />
+    
+    <ImageButton
+        android:id="@+id/btnVideo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="0dp"
+        android:src="@drawable/icon_video"/> 
+
+    <ImageButton
+        android:id="@+id/btnNote"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="0dp"
+        android:src="@drawable/icon_note" />
+<!--
+    <ImageButton
+        android:id="@+id/btnGallery"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="0dp"
+        android:src="@drawable/icon_gallery"
+        android:text="@string/btnGallery" />
+-->
+</LinearLayout>

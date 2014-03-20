@@ -1,0 +1,28 @@
+{
+     "Activities": [
+	     {
+             "id": 0,
+             "name": "Free Observation",
+             "description" : [
+             	""]
+         },
+         {
+             "id": 1,
+             "name": "Stump a naturalist!",
+             "description" : [
+             	"Got a question about something you find at Hallam Lake? Make an observation about it and see if you can stump one of our ACES naturalists!"]
+         },
+         {
+             "id": 2,
+             "name": "Tell us what you hear",
+             "description" : [
+             	"Make an observation of somewhere where you're surrounded by the sounds of nature, then stop and listen for a minute.", "What did you hear? Tell us all about it."]             
+         },
+         {
+             "id": 3,
+             "name": "Tracks in the snow",
+             "description" : [
+             	"Animals may be hard to spot at this time of year, but evidence of their passing is all around us. See if you can spot any animal tracks in snow or dirt, and take a guess what kind of animal it was!"]
+         }
+     ]
+ }

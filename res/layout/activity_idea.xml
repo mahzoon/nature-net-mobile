@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    tools:context=".IdeaActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewSceenshot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/textViewQuestion"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerInside" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextIdea"
+        android:text="Please contribute an idea to improve the design of the interface above:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editTextIdea"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/buttonCancel"
+        android:background="@drawable/border"
+		android:gravity="top"        
+        android:ems="10"
+        android:hint="Enter your design idea here"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="cancel"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="saveAndFinish"
+        android:text="Save" />
+
+</RelativeLayout>
